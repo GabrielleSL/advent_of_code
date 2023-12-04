@@ -2,7 +2,7 @@ import re
 
 
 def part1():
-    f = open("day1_input.txt", "r")
+    f = open("input.txt", "r")
     sum = 0
 
     for line in f:
@@ -21,7 +21,7 @@ def getNumber(str):
 
 
 def part2():
-    f = open("day1_input.txt", "r")
+    f = open("input.txt", "r")
     sum = 0
 
     for line in f:

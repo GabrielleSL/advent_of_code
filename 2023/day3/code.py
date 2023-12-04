@@ -1,5 +1,5 @@
 def part1():
-    f = open("day1_input.txt", "r").readlines()
+    f = open("input.txt", "r").readlines()
     sum = 0
 
     for l in range(0, len(f)):
@@ -44,7 +44,7 @@ def getAdjNumber(line, pos):
 
 
 def part2():
-    f = open("day1_input.txt", "r").readlines()
+    f = open("input.txt", "r").readlines()
 
     sum = 0
 

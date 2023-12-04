@@ -2,7 +2,7 @@ import re
 
 
 def part1():
-    f = open("day5_input.txt", "r")
+    f = open("input.txt", "r")
     nice = 0
 
     for line in f:
@@ -27,7 +27,7 @@ def part1():
 
 
 def part2():
-    f = open("day5_input.txt", "r")
+    f = open("input.txt", "r")
     nice = 0
 
     for line in f:

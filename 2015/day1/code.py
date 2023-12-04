@@ -1,5 +1,5 @@
 def part1():
-    f = open("day1_input.txt", "r")
+    f = open("input.txt", "r")
 
     floor = 0
 
@@ -13,7 +13,7 @@ def part1():
 
 
 def part2():
-    f = open("day1_input.txt", "r")
+    f = open("input.txt", "r")
 
     floor = 0
     position = 0

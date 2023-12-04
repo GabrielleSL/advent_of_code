@@ -1,5 +1,5 @@
 def part1():
-    f = open("day3_input.txt", "r").readline()
+    f = open("input.txt", "r").readline()
     lat = 0  # <>
     lon = 0  # ^v
     visited = {"0,0"}
@@ -14,7 +14,7 @@ def part1():
     print(len(visited))
 
 def part2():
-    f = open("day3_input.txt", "r").readline()
+    f = open("input.txt", "r").readline()
     santa_pos = [0, 0]  # [lat, lon]
     robo_santa_pos = [0, 0]  # [lat, lon]
     visited = {"0,0"}  # set

@@ -1,5 +1,5 @@
 def part1():
-    f = open("day2_input.txt", "r")
+    f = open("input.txt", "r")
     total = 0
 
     for box in f:
@@ -10,7 +10,7 @@ def part1():
     print(total)
 
 def part2():
-    f = open("day2_input.txt", "r")
+    f = open("input.txt", "r")
     total = 0
 
     for box in f:

@@ -1,5 +1,5 @@
 def part1():
-    f = open("day6_input.txt", "r")
+    f = open("input.txt", "r")
     # f = [
     #     "toggle 0,0 through 999,999"
     # ]
@@ -28,7 +28,7 @@ def part1():
     print(s)
 
 def part2():
-    f = open("day6_input.txt", "r")
+    f = open("input.txt", "r")
     lights = [[0 for j in range(1000)] for i in range(1000)]
 
     for l in f:

@@ -1,5 +1,5 @@
 def part1():
-    f = open("day2_input.txt", "r")
+    f = open("input.txt", "r")
     g_sum = 0
 
     for game in f:
@@ -21,7 +21,7 @@ def part1():
 
 
 def part2():
-    f = open("day2_input.txt", "r")
+    f = open("input.txt", "r")
     p_sum = 0
 
     for game in f:
