@@ -15,8 +15,10 @@ def part1():
 
         for n in your_num:
             if n in win_num:
-                if card_points == 0: card_points = 1
-                else: card_points *= 2
+                if card_points == 0:
+                    card_points = 1
+                else:
+                    card_points *= 2
 
         total_points += card_points
 
@@ -41,7 +43,7 @@ def part2():
         for i in range(0, card_points):
             if card_num + i > len(total_cards):
                 break
-            total_cards[card_num + i] += total_cards[card_num-1]
+            total_cards[card_num + i] += total_cards[card_num - 1]
 
     print(sum(total_cards))
 

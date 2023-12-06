@@ -57,10 +57,10 @@ def part2():
             s += 1
         ranges = concat_ranges(ranges)
 
-
     min_loc = [i[0] for i in ranges]
     min_loc.sort()
     print(min_loc[0])
+
 
 def concat_ranges(ranges):
     ranges = sorted(ranges, key=lambda x: x[0])
@@ -72,6 +72,7 @@ def concat_ranges(ranges):
         else:
             i += 1
     return ranges
+
 
 # part1()
 # print()

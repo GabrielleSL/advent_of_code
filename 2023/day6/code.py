@@ -28,6 +28,5 @@ def part2():
     print(times)
 
 
-
 part1()
 part2()
