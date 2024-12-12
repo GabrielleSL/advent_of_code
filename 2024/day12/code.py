@@ -59,22 +59,13 @@ def find_sides(region):
 ans1 = 0
 ans2 = 0
 
-# print(garden)
-
 for a in range(len(garden)):
     for b in range(len(garden[a])):
         if garden[a][b] != '0':
             r = find_regions([[a,b]], [a,b], garden[a][b])
-            p = find_perimeter(r)
-            s = find_sides(r)
-            ans1 += (p * len(r))
-            ans2 += (s * len(r))
+            ans1 += (find_perimeter(r) * len(r))
+            ans2 += (find_sides(r) * len(r))
             garden[a][b] = '0'
-
-
-# for a in regions:
-#     print(a)
-
 
 
 print("PART 1", ans1)
